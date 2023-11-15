@@ -1,8 +1,12 @@
 extends CharacterBody2D
 
 
-const speed = 300.0
+var speed = 300.0
+var dashspeed = 800
+const dashlength = .2
+var normalspeed = 300
 
+@onready var dash = $Dash
 
 @onready var sprite_2d = $Sprite2D
 
@@ -18,6 +22,10 @@ func _physics_process(delta):
 		sprite_2d.animation = "bat"
 	else:
 		sprite_2d.animation = "bat"
+	
+	if Input.is_action_just_pressed("dash"):
+		dash.start_dash(dashlength)
+	var speed = dashspeed if dash.is_dashing() else normalspeed
 	
 	# Add the gravity.
 	if not is_on_floor():
