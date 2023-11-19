@@ -1,10 +1,11 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1700369810
+::res://::1700424152
 Dash.gd::GDScript::-1::1700084014::0::1::::<>Node2D<>::
 dash.tscn::PackedScene::2151819135024723439::1700084461::0::1::::<><>::res://Dash.gd
-main.tscn::PackedScene::5621088005794194473::1700369636::0::1::::<><>::uid://1mp2b0q55p6m::::res://images/background3.png<>uid://vqokk0p5ni41::::res://images/background4b.png<>uid://d17pck6fsfki6::::res://images/Terrain (16x16).png<>uid://hkwawqkmgtrn::::res://Scenes/main_character.tscn<>uid://cj01pyerubuqx::::res://images/mainlev_build.png<>uid://oxdy84j6w0lq::::res://images/props1.png<>uid://b8yyxgj6jiage::::res://images/props2.png<>res://PathFollow2D.gd<>res://Scenes/enemy.gd
+enemy.gd::GDScript::-1::1700374042::0::1::::<>Node2D<>::
+main.tscn::PackedScene::5621088005794194473::1700374354::0::1::::<><>::uid://1mp2b0q55p6m::::res://images/background3.png<>uid://vqokk0p5ni41::::res://images/background4b.png<>uid://d17pck6fsfki6::::res://images/Terrain (16x16).png<>uid://hkwawqkmgtrn::::res://Scenes/main_character.tscn<>uid://cj01pyerubuqx::::res://images/mainlev_build.png<>uid://oxdy84j6w0lq::::res://images/props1.png<>uid://b8yyxgj6jiage::::res://images/props2.png<>res://enemy.gd<>uid://droafp72q3c6c::::res://images/Jump (32x32).png
 README.md::TextFile::-1::1700082355::0::1::::<><>::
-::res://images/::1700359219
+::res://images/::1700423353
 background1.png::CompressedTexture2D::2736922651483553752::1699917431::1700359150::1::::<><>::
 background2.png::CompressedTexture2D::3723578324419269580::1699917450::1700359152::1::::<><>::
 background3.png::CompressedTexture2D::1850641530876203382::1699917454::1700359160::1::::<><>::
@@ -12,15 +13,16 @@ background4a.png::CompressedTexture2D::5688857812580961280::1699917457::17003591
 background4b.png::CompressedTexture2D::1507864220877170428::1699917461::1700359171::1::::<><>::
 Green.png::CompressedTexture2D::5079781112410293640::1699836837::1700359174::1::::<><>::
 icon.svg::CompressedTexture2D::8583983800101065601::1699836515::1700359177::1::::<><>::
+Idle_Fly.png::CompressedTexture2D::5516190267289280608::1667074282::1700424153::1::::<><>::
 Jump (32x32).png::CompressedTexture2D::8381383448985450216::1699837550::1700359179::1::::<><>::
 mainlev_build.png::CompressedTexture2D::5457757100239302511::1699917466::1700359192::1::::<><>::
+Mutated_Bat.png::CompressedTexture2D::7113819493524205957::1667074457::1700424153::1::::<><>::
 props1.png::CompressedTexture2D::1030351287828967146::1699917470::1700359200::1::::<><>::
 props2.png::CompressedTexture2D::4753696201395992512::1699917473::1700359207::1::::<><>::
 Run (32x32).png::CompressedTexture2D::8016267070139684416::1699838509::1700359211::1::::<><>::
 Terrain (16x16).png::CompressedTexture2D::9051146973651242623::1699836954::1700359219::1::::<><>::
-::res://Scenes/::1700369815
+::res://Scenes/::1700374258
 bat.png::CompressedTexture2D::8619356330576737910::1699914538::1699914538::1::::<><>::
 Idle (32x32).png::CompressedTexture2D::8099502199069991741::1699838136::1699838136::1::::<><>::
-main_character.gd::GDScript::-1::1700366084::0::1::::<>CharacterBody2D<>::
+main_character.gd::GDScript::-1::1700374258::0::1::::<>CharacterBody2D<>::
 main_character.tscn::PackedScene::513302637548909131::1700367098::0::1::::<><>::res://Scenes/main_character.gd<>uid://du2jslu7802m1::::res://Scenes/bat.png<>uid://dnnpvaivna83r::::res://Scenes/Idle (32x32).png<>uid://droafp72q3c6c::::res://images/Jump (32x32).png<>uid://dmhe0ob6t731m::::res://images/Run (32x32).png<>uid://5wme8wu5oqod::::res://dash.tscn
-enemy.tscn::PackedScene::5799771361534806398::1700369835::0::1::::<><>::res://Scenes/main_character.gd<>uid://du2jslu7802m1::::res://Scenes/bat.png<>uid://dnnpvaivna83r::::res://Scenes/Idle (32x32).png<>uid://droafp72q3c6c::::res://images/Jump (32x32).png<>uid://dmhe0ob6t731m::::res://images/Run (32x32).png<>uid://5wme8wu5oqod::::res://dash.tscn
