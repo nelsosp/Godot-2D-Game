@@ -55,3 +55,13 @@ func _physics_process(delta):
 	
 	var isLeft = velocity.x < 0
 	sprite_2d.flip_h = isLeft
+
+
+func _on_area_2d_body_entered(body):
+	if body.get_name() == 'player':
+		body.respawn()
+		
+		
+func respawn():
+	position.x = 421
+	position.y = 389

@@ -1,0 +1,23 @@
+[gd_scene load_steps=4 format=3 uid="uid://dihk2j1erxwu7"]
+
+[ext_resource type="Texture2D" uid="uid://duke7uwtvlwqb" path="res://images/icon.svg" id="1_d0287"]
+[ext_resource type="Script" path="res://node_2d.gd" id="1_u6clv"]
+
+[sub_resource type="Curve2D" id="Curve2D_8unre"]
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, 150, 57, 0, 0, 0, 0, 1043, 81, 0, 0, 0, 0, 1068, 406, 0, 0, 0, 0, 158, 402, 0, 0, 0, 0, 150, 57)
+}
+point_count = 5
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_u6clv")
+
+[node name="Path2D" type="Path2D" parent="."]
+curve = SubResource("Curve2D_8unre")
+
+[node name="PathFollow2D" type="PathFollow2D" parent="Path2D"]
+position = Vector2(150, 57)
+rotation = 0.0268692
+
+[node name="Sprite2D" type="Sprite2D" parent="Path2D/PathFollow2D"]
+texture = ExtResource("1_d0287")

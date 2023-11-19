@@ -1,10 +1,10 @@
 [gd_scene load_steps=36 format=3 uid="uid://hkwawqkmgtrn"]
 
 [ext_resource type="Script" path="res://Scenes/main_character.gd" id="1_c4i37"]
-[ext_resource type="Texture2D" uid="uid://droafp72q3c6c" path="res://Jump (32x32).png" id="1_tqivn"]
 [ext_resource type="Texture2D" uid="uid://du2jslu7802m1" path="res://Scenes/bat.png" id="2_etwfl"]
 [ext_resource type="Texture2D" uid="uid://dnnpvaivna83r" path="res://Scenes/Idle (32x32).png" id="2_kcjsp"]
-[ext_resource type="Texture2D" uid="uid://dmhe0ob6t731m" path="res://Run (32x32).png" id="4_4bagm"]
+[ext_resource type="Texture2D" uid="uid://droafp72q3c6c" path="res://images/Jump (32x32).png" id="4_rm40t"]
+[ext_resource type="Texture2D" uid="uid://dmhe0ob6t731m" path="res://images/Run (32x32).png" id="5_ub471"]
 [ext_resource type="PackedScene" uid="uid://5wme8wu5oqod" path="res://dash.tscn" id="6_0ntot"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_0qil0"]
@@ -68,51 +68,51 @@ atlas = ExtResource("2_kcjsp")
 region = Rect2(320, 0, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_y2hm8"]
-atlas = ExtResource("4_4bagm")
+atlas = ExtResource("5_ub471")
 region = Rect2(0, 0, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_pensr"]
-atlas = ExtResource("4_4bagm")
+atlas = ExtResource("5_ub471")
 region = Rect2(32, 0, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_rwf6m"]
-atlas = ExtResource("4_4bagm")
+atlas = ExtResource("5_ub471")
 region = Rect2(64, 0, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_r01d8"]
-atlas = ExtResource("4_4bagm")
+atlas = ExtResource("5_ub471")
 region = Rect2(96, 0, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_38fcq"]
-atlas = ExtResource("4_4bagm")
+atlas = ExtResource("5_ub471")
 region = Rect2(128, 0, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_j1xr7"]
-atlas = ExtResource("4_4bagm")
+atlas = ExtResource("5_ub471")
 region = Rect2(160, 0, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_cuisi"]
-atlas = ExtResource("4_4bagm")
+atlas = ExtResource("5_ub471")
 region = Rect2(192, 0, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_8mwrl"]
-atlas = ExtResource("4_4bagm")
+atlas = ExtResource("5_ub471")
 region = Rect2(224, 0, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_c08ff"]
-atlas = ExtResource("4_4bagm")
+atlas = ExtResource("5_ub471")
 region = Rect2(256, 0, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_mebvj"]
-atlas = ExtResource("4_4bagm")
+atlas = ExtResource("5_ub471")
 region = Rect2(288, 0, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_dbt82"]
-atlas = ExtResource("4_4bagm")
+atlas = ExtResource("5_ub471")
 region = Rect2(320, 0, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_r77rx"]
-atlas = ExtResource("4_4bagm")
+atlas = ExtResource("5_ub471")
 region = Rect2(352, 0, 32, 32)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_krchh"]
@@ -179,7 +179,7 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("1_tqivn")
+"texture": ExtResource("4_rm40t")
 }],
 "loop": true,
 "name": &"jumping",
