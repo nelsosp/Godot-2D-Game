@@ -1,4 +1,4 @@
-[gd_scene load_steps=31 format=3 uid="uid://cmc5q66og3fkb"]
+[gd_scene load_steps=43 format=3 uid="uid://cmc5q66og3fkb"]
 
 [ext_resource type="Texture2D" uid="uid://1mp2b0q55p6m" path="res://images/background3.png" id="1_cufps"]
 [ext_resource type="Texture2D" uid="uid://vqokk0p5ni41" path="res://images/background4b.png" id="2_52j81"]
@@ -10,6 +10,8 @@
 [ext_resource type="Script" path="res://enemy1.gd" id="8_pkraj"]
 [ext_resource type="Script" path="res://enemy_animations1.gd" id="9_cqpqb"]
 [ext_resource type="Texture2D" uid="uid://ckuc33bavapie" path="res://images/Idle_Fly.png" id="10_df753"]
+[ext_resource type="AudioStream" uid="uid://bc05xhnq35dsj" path="res://images/Sci-Fi 3 Loop.mp3" id="11_6aklu"]
+[ext_resource type="Texture2D" uid="uid://bjhfokj2gpxx7" path="res://images/atlas_53c.png" id="11_xldpv"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ym6aw"]
 texture = ExtResource("3_bjuoi")
@@ -18248,6 +18250,111 @@ _data = {
 }
 point_count = 9
 
+[sub_resource type="AtlasTexture" id="AtlasTexture_8lqxu"]
+atlas = ExtResource("11_xldpv")
+region = Rect2(1638, 2457, 819, 819)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_g6ja7"]
+atlas = ExtResource("11_xldpv")
+region = Rect2(2457, 2457, 819, 819)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_d2gj0"]
+atlas = ExtResource("11_xldpv")
+region = Rect2(3276, 2457, 819, 819)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1gfic"]
+atlas = ExtResource("11_xldpv")
+region = Rect2(0, 3276, 819, 819)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_jcf7c"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8lqxu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_g6ja7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_d2gj0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1gfic")
+}],
+"loop": true,
+"name": &"default",
+"speed": 3.0
+}]
+
+[sub_resource type="Gradient" id="Gradient_lywso"]
+offsets = PackedFloat32Array(0, 0.870968)
+colors = PackedColorArray(1, 1, 1, 1, 0, 0, 0, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_bfxpk"]
+gradient = SubResource("Gradient_lywso")
+fill = 1
+fill_from = Vector2(0.5, 0.5)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_86m75"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8lqxu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_g6ja7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_d2gj0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1gfic")
+}],
+"loop": true,
+"name": &"default",
+"speed": 3.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_rhxlo"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8lqxu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_g6ja7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_d2gj0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1gfic")
+}],
+"loop": true,
+"name": &"default",
+"speed": 3.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_xl7t4"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8lqxu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_g6ja7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_d2gj0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1gfic")
+}],
+"loop": true,
+"name": &"default",
+"speed": 3.0
+}]
+
 [node name="Node" type="Node"]
 
 [node name="TextureRect" type="TextureRect" parent="."]
@@ -18460,6 +18567,67 @@ sprite_frames = SubResource("SpriteFrames_oj6xp")
 animation = &"enemy_bat"
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("11_6aklu")
+volume_db = -20.0
+autoplay = true
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+position = Vector2(289, 232)
+scale = Vector2(0.847985, 0.90293)
+sprite_frames = SubResource("SpriteFrames_jcf7c")
+frame_progress = 0.615003
+
+[node name="PointLight2D" type="PointLight2D" parent="AnimatedSprite2D"]
+position = Vector2(3.53778, -22.1501)
+scale = Vector2(9.93057, 13.2208)
+color = Color(0.74902, 1, 0.898039, 1)
+energy = 3.74
+texture = SubResource("GradientTexture2D_bfxpk")
+
+[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+position = Vector2(1105, 144)
+scale = Vector2(0.537546, 0.545482)
+sprite_frames = SubResource("SpriteFrames_86m75")
+
+[node name="PointLight2D" type="PointLight2D" parent="AnimatedSprite2D2"]
+position = Vector2(-61.3897, -37.2713)
+scale = Vector2(13.4872, 14.0741)
+color = Color(0.521569, 1, 1, 1)
+energy = 3.74
+texture = SubResource("GradientTexture2D_bfxpk")
+
+[node name="AnimatedSprite2D3" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+position = Vector2(438, -650)
+scale = Vector2(0.554487, 0.791667)
+sprite_frames = SubResource("SpriteFrames_rhxlo")
+
+[node name="PointLight2D" type="PointLight2D" parent="AnimatedSprite2D3"]
+position = Vector2(-39.6763, 168)
+scale = Vector2(13.4872, 14.0741)
+color = Color(0.521569, 1, 1, 1)
+energy = 3.74
+texture = SubResource("GradientTexture2D_bfxpk")
+
+[node name="AnimatedSprite2D4" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+position = Vector2(1128.03, -718)
+scale = Vector2(0.676511, 0.791667)
+sprite_frames = SubResource("SpriteFrames_xl7t4")
+
+[node name="PointLight2D" type="PointLight2D" parent="AnimatedSprite2D4"]
+position = Vector2(-91.6929, 161.684)
+scale = Vector2(15.9822, 15.6818)
+color = Color(0.521569, 1, 1, 1)
+energy = 3.74
+texture = SubResource("GradientTexture2D_bfxpk")
+
+[node name="DirectionalLight2D" type="DirectionalLight2D" parent="."]
+position = Vector2(-0.000152588, -1.52588e-05)
+energy = 0.86
+blend_mode = 1
 
 [connection signal="body_entered" from="Path2D/PathFollow2D/CharacterBody2D/Area2D" to="player" method="_on_area_2d_body_entered"]
 [connection signal="body_entered" from="Path2D2/PathFollow2D/CharacterBody2D/Area2D" to="player" method="_on_area_2d_body_entered"]

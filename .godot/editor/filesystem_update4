@@ -1,12 +1,3 @@
-res://main.tscn
-res://enemy.gd
-res://enemy2d.gd
-res://test.gd
 res://Scenes/main.tscn
-res://main_character.gd
-res://Scenes/enemy2.gd
-res://Scenes/enemy_animation2.gd
-res://enemy1_creation.tscn
-res://Scenes/enemy1.gd
-res://Scenes/enemy_animations1.gd
-res://enemy1.gd
+res://lights.tscn
+res://Scenes/tree_light.gd
