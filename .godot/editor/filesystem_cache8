@@ -1,11 +1,11 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1700443179
+::res://::1700527095
 Dash.gd::GDScript::-1::1700084014::0::1::::<>Node2D<>::
 enemy1.gd::GDScript::-1::1700431660::0::1::::<>Node2D<>::
 enemy_animations1.gd::GDScript::-1::1700431328::0::1::::<>PathFollow2D<>::
 main_character.gd::GDScript::-1::1700431106::0::1::::<>CharacterBody2D<>::
 README.md::TextFile::-1::1700082355::0::1::::<><>::
-::res://images/::1700443445
+::res://images/::1700510030
 atlas_53c.png::CompressedTexture2D::3032900047164444418::1700440541::1700443191::1::::<><>::
 background1.png::CompressedTexture2D::2736922651483553752::1699917431::1700359150::1::::<><>::
 background2.png::CompressedTexture2D::3723578324419269580::1699917450::1700359152::1::::<><>::
@@ -20,12 +20,16 @@ Idle_Fly.png::CompressedTexture2D::5516190267289280608::1667074282::1700424153::
 Jump (32x32).png::CompressedTexture2D::8381383448985450216::1699837550::1700359179::1::::<><>::
 mainlev_build.png::CompressedTexture2D::5457757100239302511::1699917466::1700359192::1::::<><>::
 Mutated_Bat.png::CompressedTexture2D::7113819493524205957::1667074457::1700424153::1::::<><>::
+ParallaxCave1.png::CompressedTexture2D::4648311743475623823::1700510018::1700510018::1::::<><>::
+ParallaxCave2.png::CompressedTexture2D::5011315370566426979::1700510025::1700510025::1::::<><>::
+ParallaxCave3.png::CompressedTexture2D::1550171083906017751::1700510027::1700510028::1::::<><>::
+ParallaxCave4.png::CompressedTexture2D::6036392886209062345::1700510030::1700510030::1::::<><>::
 props1.png::CompressedTexture2D::1030351287828967146::1699917470::1700359200::1::::<><>::
 props2.png::CompressedTexture2D::4753696201395992512::1699917473::1700359207::1::::<><>::
 Run (32x32).png::CompressedTexture2D::8016267070139684416::1699838509::1700359211::1::::<><>::
 Sci-Fi 3 Loop.mp3::AudioStreamMP3::2580270786374942569::1700443445::1700443445::1::::<><>::
 Terrain (16x16).png::CompressedTexture2D::9051146973651242623::1699836954::1700359219::1::::<><>::
-::res://Scenes/::1700443182
+::res://Scenes/::1700512999
 dash.tscn::PackedScene::2151819135024723439::1700084461::0::1::::<><>::res://Dash.gd
-main.tscn::PackedScene::5621088005794194473::1700443179::0::1::::<><>::uid://1mp2b0q55p6m::::res://images/background3.png<>uid://vqokk0p5ni41::::res://images/background4b.png<>uid://d17pck6fsfki6::::res://images/Terrain (16x16).png<>uid://cj01pyerubuqx::::res://images/mainlev_build.png<>uid://oxdy84j6w0lq::::res://images/props1.png<>uid://b8yyxgj6jiage::::res://images/props2.png<>uid://hkwawqkmgtrn::::res://Scenes/main_character.tscn<>res://enemy1.gd<>res://enemy_animations1.gd<>uid://ckuc33bavapie::::res://images/Idle_Fly.png<>uid://bjhfokj2gpxx7::::res://images/atlas_53c.png
+main.tscn::PackedScene::5621088005794194473::1700512999::0::1::::<><>::uid://1mp2b0q55p6m::::res://images/background3.png<>uid://vqokk0p5ni41::::res://images/background4b.png<>uid://d17pck6fsfki6::::res://images/Terrain (16x16).png<>uid://be81yl6ss1cr5::::res://images/background1.png<>uid://btby15m0fvsg7::::res://images/background2.png<>uid://cj01pyerubuqx::::res://images/mainlev_build.png<>uid://cnbywlrsngcwm::::res://images/background4a.png<>uid://oxdy84j6w0lq::::res://images/props1.png<>uid://b8yyxgj6jiage::::res://images/props2.png<>uid://hkwawqkmgtrn::::res://Scenes/main_character.tscn<>res://enemy1.gd<>res://enemy_animations1.gd<>uid://ckuc33bavapie::::res://images/Idle_Fly.png<>uid://bc05xhnq35dsj::::res://images/Sci-Fi 3 Loop.mp3<>uid://bjhfokj2gpxx7::::res://images/atlas_53c.png
 main_character.tscn::PackedScene::513302637548909131::1700427800::0::1::::<><>::res://main_character.gd<>uid://du2jslu7802m1

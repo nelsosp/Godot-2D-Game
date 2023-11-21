@@ -1,6 +1,7 @@
+PointLight2D
+TextureRect
 DirectionalLight2D
 AnimatedSprite2D
-PointLight2D
 Sprite2D
 AnimationTree
 AudioStreamPlayer
@@ -10,7 +11,6 @@ CharacterBody2D
 PathFollow2D
 Path2D
 AnimationPlayer
-TextureRect
 Timer
 Camera2D
 TileMap
