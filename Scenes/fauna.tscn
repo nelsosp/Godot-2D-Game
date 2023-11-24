@@ -1,0 +1,39 @@
+[gd_scene load_steps=6 format=3 uid="uid://dtuhkjvtisj7u"]
+
+[ext_resource type="Texture2D" uid="uid://cd747mg65dlrf" path="res://images/atlas_34a.png" id="1_fmmxc"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gr424"]
+atlas = ExtResource("1_fmmxc")
+region = Rect2(2457, 0, 819, 1024)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_nonw6"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gr424")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="Gradient" id="Gradient_n867l"]
+offsets = PackedFloat32Array(0.0322581, 0.864516)
+colors = PackedColorArray(1, 1, 1, 1, 0, 0, 0, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_yw1cc"]
+gradient = SubResource("Gradient_n867l")
+fill = 1
+fill_from = Vector2(0.5, 0.5)
+
+[node name="Fauna" type="AnimatedSprite2D"]
+position = Vector2(293, -209)
+scale = Vector2(0.387363, 0.350098)
+sprite_frames = SubResource("SpriteFrames_nonw6")
+
+[node name="PointLight2D" type="PointLight2D" parent="."]
+position = Vector2(7.644, -239.868)
+scale = Vector2(4.96209, 5.09384)
+color = Color(0, 0, 1, 1)
+energy = 3.28
+texture = SubResource("GradientTexture2D_yw1cc")

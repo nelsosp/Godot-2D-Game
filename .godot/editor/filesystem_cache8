@@ -1,10 +1,11 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1700605096
+::res://::1700853030
 Dash.gd::GDScript::-1::1700084014::0::1::::<>Node2D<>::
 enemy1.gd::GDScript::-1::1700431660::0::1::::<>Node2D<>::
 enemy_animations1.gd::GDScript::-1::1700431328::0::1::::<>PathFollow2D<>::
 main_character.gd::GDScript::-1::1700593179::0::1::::<>CharacterBody2D<>::
 README.md::TextFile::-1::1700082355::0::1::::<><>::
+fauna.tscn::PackedScene::8534581018197254952::1700855065::0::1::::<><>::uid://cd747mg65dlrf::::res://images/atlas_34a.png
 ::res://images/::1700594492
 atlas_29.png::CompressedTexture2D::6058578908878026735::1700594356::1700594492::1::::<><>::
 atlas_30.png::CompressedTexture2D::3512501848244792181::1700527999::1700528001::1::::<><>::
@@ -32,8 +33,8 @@ props2.png::CompressedTexture2D::4753696201395992512::1699917473::1700359207::1:
 Run (32x32).png::CompressedTexture2D::8016267070139684416::1699838509::1700359211::1::::<><>::
 Sci-Fi 3 Loop.mp3::AudioStreamMP3::2580270786374942569::1700443445::1700443445::1::::<><>::
 Terrain (16x16).png::CompressedTexture2D::9051146973651242623::1699836954::1700359219::1::::<><>::
-::res://Scenes/::1700601498
-chaser.gd::GDScript::-1::1700600323::0::1::::<>CharacterBody2D<>::
+::res://Scenes/::1700854595
+chaser.gd::GDScript::-1::1700854255::0::1::::<>CharacterBody2D<>::
 dash.tscn::PackedScene::2151819135024723439::1700084461::0::1::::<><>::res://Dash.gd
-main.tscn::PackedScene::5621088005794194473::1700601498::0::1::::<><>::uid://1mp2b0q55p6m::::res://images/background3.png<>uid://vqokk0p5ni41::::res://images/background4b.png<>uid://d17pck6fsfki6::::res://images/Terrain (16x16).png<>uid://be81yl6ss1cr5::::res://images/background1.png<>uid://btby15m0fvsg7::::res://images/background2.png<>uid://cj01pyerubuqx::::res://images/mainlev_build.png<>uid://cnbywlrsngcwm::::res://images/background4a.png<>uid://oxdy84j6w0lq::::res://images/props1.png<>uid://b8yyxgj6jiage::::res://images/props2.png<>uid://hkwawqkmgtrn::::res://Scenes/main_character.tscn<>res://enemy1.gd<>res://enemy_animations1.gd<>uid://ckuc33bavapie::::res://images/Idle_Fly.png<>uid://bc05xhnq35dsj::::res://images/Sci-Fi 3 Loop.mp3<>uid://bjhfokj2gpxx7::::res://images/atlas_53c.png<>res://Scenes/chaser.gd<>uid://cd747mg65dlrf::::res://images/atlas_34a.png
+main.tscn::PackedScene::5621088005794194473::1700854595::0::1::::<><>::uid://1mp2b0q55p6m::::res://images/background3.png<>uid://vqokk0p5ni41::::res://images/background4b.png<>uid://d17pck6fsfki6::::res://images/Terrain (16x16).png<>uid://be81yl6ss1cr5::::res://images/background1.png<>uid://btby15m0fvsg7::::res://images/background2.png<>uid://cj01pyerubuqx::::res://images/mainlev_build.png<>uid://cnbywlrsngcwm::::res://images/background4a.png<>uid://oxdy84j6w0lq::::res://images/props1.png<>uid://b8yyxgj6jiage::::res://images/props2.png<>uid://hkwawqkmgtrn::::res://Scenes/main_character.tscn<>res://enemy1.gd<>res://enemy_animations1.gd<>uid://ckuc33bavapie::::res://images/Idle_Fly.png<>uid://bc05xhnq35dsj::::res://images/Sci-Fi 3 Loop.mp3<>uid://bjhfokj2gpxx7::::res://images/atlas_53c.png<>res://Scenes/chaser.gd<>uid://cd747mg65dlrf::::res://images/atlas_34a.png
 main_character.tscn::PackedScene::513302637548909131::1700592183::0::1::::<><>::res://main_character.gd<>uid://du2jslu7802m1
