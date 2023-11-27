@@ -1,3 +1,3 @@
 res://Scenes/main.tscn
-res://Scenes/chaser.gd
-res://Scenes/fauna.tscn
+res://main_character.gd
+res://Scenes/main_character.tscn
