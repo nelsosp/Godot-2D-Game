@@ -1,13 +1,11 @@
 extends CharacterBody2D
 
-
 var speed = 300.0
 var dashspeed = 800
 const dashlength = .2
 var normalspeed = 300
 
 @onready var dash = $Dash
-
 @onready var sprite_2d = $Sprite2D
 
 # Get the gravity from the project settings to be synced with RigidBody nodes.
@@ -43,13 +41,11 @@ func _physics_process(delta):
 		jump_count = 0
 
 	# Get the input direction and handle the movement/deceleration.
-	# As good practice, you should replace UI actions with custom gameplay actions.
 	var direction = Input.get_axis("ui_left", "ui_right")
 	if direction:
 		velocity.x = direction * speed
 	else:
 		velocity.x = move_toward(velocity.x, 0, speed)
-
 
 	move_and_slide()
 	
@@ -60,8 +56,6 @@ func _physics_process(delta):
 func _on_area_2d_body_entered(body):
 	if body.get_name() == 'player':
 		body.respawn()
-
-
 		
 		
 func respawn():

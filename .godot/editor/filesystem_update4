@@ -1,3 +1,4 @@
 res://Scenes/main.tscn
-res://Scenes/main_character.tscn
 res://main_character.gd
+res://Scenes/dash.tscn
+res://Scenes/main_character.tscn
