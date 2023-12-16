@@ -3,6 +3,7 @@
 
  ## Software Used
  [![My Skills](https://skillicons.dev/icons?i=godot)](https://skillicons.dev)
+ GDScript
 
  ## How To See It For Yourself
  
