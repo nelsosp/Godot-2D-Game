@@ -7,4 +7,5 @@
  - GDScript
 
  ## How To See It For Yourself
- 
+ 1. Download Godot Game Engine from godotengine.org. Once downloaded, hit the green code dropdown button in github to receive the zip file, extract it to a path. Go into Godot and import the extracted files, game will load, and play button can be clicked.
+ 2. (In Progress) Future committs will contain a playable application for all platforms.
